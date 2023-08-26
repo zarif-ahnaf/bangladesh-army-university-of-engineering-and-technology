@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "vercel-django"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.4"
+whitenoise = "6.5.0"
+python-docx = "0.8.11"
+django-crispy-forms = "2.0"
+crispy-bootstrap5 = "0.7"
+django-bootstrap-datepicker-plus = "5.0.4"
+
+[tool.ruff.isort]
+combine-as-imports = true
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.286"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
