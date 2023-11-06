@@ -27,18 +27,18 @@ tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
 [[package]]
 name = "crispy-bootstrap5"
-version = "0.7"
+version = "2023.10"
 description = "Bootstrap5 template pack for django-crispy-forms"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "crispy-bootstrap5-0.7.tar.gz", hash = "sha256:0745a67199619149b7feca87dab7a45664876ed50fb582b38fd2aeb3f8a8d869"},
-    {file = "crispy_bootstrap5-0.7-py3-none-any.whl", hash = "sha256:f3ff1ef5cb379fe80b1b02e245008f276444098a4bdb8d855bed84c623798a85"},
+    {file = "crispy-bootstrap5-2023.10.tar.gz", hash = "sha256:f16c44f1997310e5a89c0cf230402e7111cc1f942f64fb7e44603958b89b06a1"},
+    {file = "crispy_bootstrap5-2023.10-py3-none-any.whl", hash = "sha256:9b5a6c9880f37cd32aa678c0d7576ae60b3e502c444c8712e582f8bd91659afb"},
 ]
 
 [package.dependencies]
-django = ">=3.2"
-django-crispy-forms = ">=1.13.0"
+django = ">=4.2"
+django-crispy-forms = ">=2"
 
 [package.extras]
 test = ["pytest", "pytest-django"]
@@ -428,4 +428,4 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "f134317188f357cb56501ea7e3bbbfc952a1917eeb000938b8b71cc02726a092"
+content-hash = "7778dd7f5ecb0bb8271025d9471e2683c7702253dd685eae9196d17f0562c2ea"
