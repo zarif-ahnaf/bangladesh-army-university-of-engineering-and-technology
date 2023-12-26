@@ -65,17 +65,17 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "django-bootstrap-datepicker-plus"
-version = "5.0.4"
+version = "5.0.5"
 description = "Bootstrap3/Bootstrap4/Bootstrap5 DatePickerInput, TimePickerInput, DateTimePickerInput, MonthPickerInput, YearPickerInput"
 optional = false
-python-versions = ">=3.7,<4.0"
+python-versions = ">=3.8,<4.0"
 files = [
-    {file = "django_bootstrap_datepicker_plus-5.0.4-py3-none-any.whl", hash = "sha256:3adc135b474d4b4b7d6844ea0cf365c262c21b335609c2e11359d1ddf0ee09b6"},
-    {file = "django_bootstrap_datepicker_plus-5.0.4.tar.gz", hash = "sha256:fac3f7aeacd3fa63a9829077983ff728aea145f5a4f493c5dfbf870cb36c53ca"},
+    {file = "django_bootstrap_datepicker_plus-5.0.5-py3-none-any.whl", hash = "sha256:f0818dcaca6824f2bc3b42b53e2cd0e42e9ceb2c8802254f9d38d4cce04b31d8"},
+    {file = "django_bootstrap_datepicker_plus-5.0.5.tar.gz", hash = "sha256:ea5e2bc2137a72b57ba10d2a5f18373049b0d252052f921e5a76c260eaaa35ee"},
 ]
 
 [package.dependencies]
-Django = ">=2,<5"
+Django = ">=2,<6"
 pydantic = "*"
 typing-extensions = "*"
 
@@ -428,4 +428,4 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "87f9e04cb1cce25bc5b262974b3144f6889e9fe35d1d90105ca54b5013bbdd5c"
+content-hash = "9b9aeb6c24844363a786638ccaee9facc3994c46f488147b7012bde49bd5ceb2"
