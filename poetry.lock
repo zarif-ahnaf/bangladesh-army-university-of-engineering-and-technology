@@ -45,13 +45,13 @@ test = ["pytest", "pytest-django"]
 
 [[package]]
 name = "django"
-version = "5.1.1"
+version = "5.1.3"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "Django-5.1.1-py3-none-any.whl", hash = "sha256:71603f27dac22a6533fb38d83072eea9ddb4017fead6f67f2562a40402d61c3f"},
-    {file = "Django-5.1.1.tar.gz", hash = "sha256:021ffb7fdab3d2d388bc8c7c2434eb9c1f6f4d09e6119010bbb1694dda286bc2"},
+    {file = "Django-5.1.3-py3-none-any.whl", hash = "sha256:8b38a9a12da3ae00cb0ba72da985ec4b14de6345046b1e174b1fd7254398f818"},
+    {file = "Django-5.1.3.tar.gz", hash = "sha256:c0fa0e619c39325a169208caef234f90baa925227032ad3f44842ba14d75234a"},
 ]
 
 [package.dependencies]
@@ -429,4 +429,4 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "21dae85e65e0f6e5d2d15c1469c9e1f52fe04a63f9c5d9ab88d0d16144577288"
+content-hash = "8f47fcd9bbf686326d37bb0702d561b79a083c73789b505e5f75c39c971d39e5"
